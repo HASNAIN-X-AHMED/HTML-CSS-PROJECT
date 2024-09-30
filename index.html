@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        tr  {
+            background: rgb(175, 175, 214);
+            font-family: century Gothic;
+            font-size: 12pt;
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <img src="image/pic.2.png" height="200" width="250">
+    <h1>Registration For Admission</h1>
+    <h2>program 2024/2025</h2>
+    
+    <form>
+        <table width="500" border="0" cellspacing="5" cellpadding="10">
+            <tr>
+                <th colspan="2" align="left" style="color: white; background-color: black;">Personal Information</th>
+            </tr>
+
+            <tr>
+                <td><b> First Name</b></td>
+                <td><input type="text"  placeholder="First Name" required name="text"></td>
+            </tr>
+
+            <tr>
+                <td><b>Last Name</b></td>
+                <td><input type="text"  placeholder="Last Name" required name="text"></td>
+            </tr>
+
+            <tr>
+                <td><b>Father Name</b></td>
+                <td><input type="text"  placeholder="Father Name" required name="text"> </td>
+            </tr>
+
+            <tr>
+                <td><b>Date Of Birth</b></td>
+                <td><input type="date" required name="Date Of Birth"></td>
+            </tr>
+
+            <tr>
+                <td><b>Gender</b></td>
+                <td><input type="radio" name="Gender"required >Male<input type="radio" name="Gender" required name="Gender">Female </td>
+            </tr>
+
+            <tr>
+                <td><b>Age</b></td>
+                <td><input type="number" min="18" max="45" required placeholder="Age" name="Age"></td>
+            </tr>
+
+            <tr>
+                <td><b>Email</b></td>
+                <td><input type="email" placeholder="abc@gmail.com" name="Email"></td>
+
+            </tr>
+
+            <tr>
+                <td><b>City</b></td>
+                <td required name="City">
+                    <select>
+                        <option>Select City</option>
+                        <option>Karachi</option>
+                        <option>Lahore</option>
+                        <option>Islambad</option>
+                        <option>Rawalpindi</option>
+                        <option>Faislabad</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Address</b></td>
+                <td><textarea rows="3" cols="20" placeholder="Address" required name="Address"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><b>Hobbies</b></td>
+                <td><input type="text" name="text" placeholder="Hobbies" required></td>   
+            </tr>
+
+            <tr>
+                <td><b>Skill</b></td>
+                <td><input type="text" name="text" placeholder="Skill"></td>
+            </tr>
+
+            <tr>
+                <td><b>Home Telephone</b></td>
+                <td><input type="tel" placeholder="Home Telephone" name="Home Telephone" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Mobile Number</b></td>
+                <td><input type="tel" placeholder="Mobile Number" name="Mobile Number"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="reset"><input type="submit"></td>
+            </tr>
+
+        </table>
+    </form>
+
+</center>
+</body>
+</html>
